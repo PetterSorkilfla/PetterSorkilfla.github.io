@@ -78,8 +78,11 @@ header{
 
 .text{
     color:var(--textc);
-    font-weight: bold;
     text-decoration: none;
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
 }
 
 h1{
@@ -90,4 +93,14 @@ h1{
 footer{
     border-top: 1px solid var(--textc);
     padding:10px;
+}
+
+.profilepic img{
+    width: 400px;
+}
+
+.profilepic{
+    text-align: center;
+    vertical-align: auto;
+    margin: 0 auto;
 }
